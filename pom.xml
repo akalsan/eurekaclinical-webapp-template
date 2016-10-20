@@ -32,7 +32,7 @@
     <module-name>eurekaclinical-template</module-name>
     <jstl-version>1.2</jstl-version>
     <jsp-api-version>2.0</jsp-api-version>
-    <eurekaclinical-common-version>1.0-Alpha-16</eurekaclinical-common-version>
+    <eurekaclinical-common-version>1.1-SNAPSHOT</eurekaclinical-common-version>
 </properties>
 
 <build>
@@ -190,13 +190,13 @@
         <version>${eurekaclinical-common-version}</version>
     </dependency>
     <dependency>
+        <groupId>javax.servlet</groupId>
+        <artifactId>javax.servlet-api</artifactId>
+    </dependency>
+    <dependency>
         <groupId>jstl</groupId>
         <artifactId>jstl</artifactId>
         <version>${jstl-version}</version>
-    </dependency>
-    <dependency>
-        <groupId>javax.servlet</groupId>
-        <artifactId>javax.servlet-api</artifactId>
     </dependency>
     <dependency>
         <groupId>javax.servlet</groupId>

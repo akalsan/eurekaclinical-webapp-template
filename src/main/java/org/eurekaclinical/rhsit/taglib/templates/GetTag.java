@@ -1,6 +1,9 @@
-/*
+
+package org.eurekaclinical.rhsit.taglib.templates;
+
+/*-
  * #%L
- * Eureka! Clinical User Webapp
+ * eurekaclinical-webapp-template
  * %%
  * Copyright (C) 2016 Emory University
  * %%
@@ -17,7 +20,6 @@
  * limitations under the License.
  * #L%
  */
-package org.eurekaclinical.rhsit.taglib.templates;
 
 import java.util.Hashtable;
 import java.util.Stack;

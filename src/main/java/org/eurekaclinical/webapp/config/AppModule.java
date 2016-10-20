@@ -27,7 +27,6 @@ import org.eurekaclinical.webapp.props.WebappProperties;
 import com.google.inject.AbstractModule;
 import org.eurekaclinical.common.comm.clients.RouterTable;
 import org.eurekaclinical.standardapis.props.CasEurekaClinicalProperties;
-import org.eurekaclinical.standardapis.props.EurekaClinicalProperties;
 
 /**
  * Created by akalsan on 9/15/16.
